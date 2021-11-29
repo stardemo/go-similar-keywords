@@ -1,0 +1,13 @@
+server:
+  address: :8555
+  accessLogEnabled: true
+#  maxHeaderBytes: 20KB
+#  clientMaxBodySize: 200MB
+
+leveldb:
+  IndexToKeyword: /Users/starliu/Downloads/Tencent_AILab_ChineseEmbedding/wordvector_be/data/tencent_embedding_index_to_keyword.db
+  KeywordToIndex: /Users/starliu/Downloads/Tencent_AILab_ChineseEmbedding/wordvector_be/data/tencent_embedding_keyword_to_index.db
+
+annoy:
+  IndexPath: /Users/starliu/Downloads/Tencent_AILab_ChineseEmbedding/wordvector_be/data/tencent_embedding.ann
+  vecDim: 200
